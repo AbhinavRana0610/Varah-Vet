@@ -1,4 +1,6 @@
-<?php include('header.php') ?>
+<?php $page_title = "All Locations | Varah Healthcare Animal Feed Supplements";
+  $description = "Varah Healthcare's presence across India and beyond, serving excellence in major cities and states with third-party animal feed supplement manufacturing.";
+  include('header.php'); ?>
 
 <section class="locations-wrapper mt-5">
     <div class="locations-container">

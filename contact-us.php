@@ -1,4 +1,6 @@
-<?php include('header.php') ?>
+<?php $page_title = "Contact Us | Varah Healthcare, Saharanpur";
+  $description = "Get in touch with VARAH HEALTHCARE, C-80, Pilakhni U.P.S.I.D.C, Saharanpur, Uttar Pradesh. Call +91-8475070000 or email varahvet@gmail.com.";
+  include('header.php'); ?>
 
 
 <div class="contact-container">

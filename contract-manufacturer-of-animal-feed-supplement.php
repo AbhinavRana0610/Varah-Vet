@@ -1,4 +1,6 @@
-<?php include('header.php') ?>
+<?php $page_title = "Contract Manufacturer of Animal Feed Supplement in India | Varah Healthcare";
+  $description = "VARAH HEALTHCARE, a contract manufacturer of animal feed supplements in India, offers customized formulas for pets, cattle, poultry, and aquaculture.";
+  include('header.php'); ?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 

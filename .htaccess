@@ -8,9 +8,24 @@ RewriteCond %{HTTPS} off
 RewriteCond %{HTTP_HOST} !^(localhost|127\.0\.0\.1)(:\d+)?$ [NC]
 RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
 
+# Work out the site's base path ("/" on the live site, "/varvet-anand/" on localhost)
+# so the redirects below stay inside the site wherever it is installed
+RewriteCond %{REQUEST_URI}::$1 ^(.*?/)(.*)::\2$
+RewriteRule ^(.*)$ - [E=BASE:%1]
+
+# Redirect removed duplicate / wrong-city location folders to the correct folder
+RewriteRule ^Cape(/.*)?$ %{ENV:BASE}Cape-Verde$1 [R=301,L]
+RewriteRule ^Dominican(/.*)?$ %{ENV:BASE}Dominican-Republic$1 [R=301,L]
+RewriteRule ^Oslo(/.*)?$ %{ENV:BASE}Norway$1 [R=301,L]
+RewriteRule ^IvoryCoast(/.*)?$ %{ENV:BASE}Ivory-Coast$1 [R=301,L]
+RewriteRule ^Asuncion(/.*)?$ %{ENV:BASE}Asunci\%C3\%B3n$1 [R=301,NE,L]
+# Folders literally named "Asunci%C3%B3n" and "Sana%27a" (reached via %25 in the URL) -> Asunción and Sana'a
+RewriteRule ^Asunci%C3%B3n(/.*)?$ %{ENV:BASE}Asunci\%C3\%B3n$1 [R=301,NE,L]
+RewriteRule ^Sana%27a(/.*)?$ %{ENV:BASE}Sana\%27a$1 [R=301,NE,L]
+
 # Redirect location index.html requests to animal-feed-supplements.php
-RewriteRule ^([^/]+)/index\.html$ $1/animal-feed-supplements.php [R=301,L]
-RewriteRule ^([^/]+)/index\.php$ $1/animal-feed-supplements.php [R=301,L]
+RewriteRule ^([^/]+)/index\.html$ %{ENV:BASE}$1/animal-feed-supplements.php [R=301,L]
+RewriteRule ^([^/]+)/index\.php$ %{ENV:BASE}$1/animal-feed-supplements.php [R=301,L]
 </IfModule>
 
 # Enable Strict-Transport-Security (HSTS Header)

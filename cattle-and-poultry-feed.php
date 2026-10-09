@@ -1,4 +1,6 @@
-<?php include('header.php') ?>
+<?php $page_title = "Cattle and Poultry Feed Supplement Manufacturer in India | Varah Healthcare";
+  $description = "VARAH HEALTHCARE is a cattle and poultry feed supplement manufacturer in India providing high-quality, secure and efficient formulas that improve animal health.";
+  include('header.php'); ?>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css">
 

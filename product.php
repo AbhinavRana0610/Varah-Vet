@@ -1,4 +1,6 @@
-<?php include 'header.php' ?>
+<?php $page_title = "Poultry, Cattle and Aqua Feed Supplement Products | Varah Healthcare";
+  $description = "Explore Varah Healthcare's poultry, cattle and aqua supplements, available in 100ml, 300ml, 500ml and 1 Liter liquids and 500gm, 1kg, 5kg, 20kg powders.";
+  include('header.php'); ?>
 
 <style>
     .products-page {

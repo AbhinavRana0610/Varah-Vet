@@ -13,11 +13,6 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.varahvet.org/index.php</loc>
-  <lastmod>2026-04-30T12:35:02+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://www.varahvet.org/about-us.php</loc>
   <lastmod>2026-04-30T12:35:02+00:00</lastmod>
   <priority>0.80</priority>
@@ -58,7 +53,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.varahvet.org/livestock-feed-supplements%20.php</loc>
+  <loc>https://www.varahvet.org/livestock-feed-supplements.php</loc>
   <lastmod>2026-04-30T12:35:02+00:00</lastmod>
   <priority>0.80</priority>
 </url>
@@ -2103,7 +2098,7 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.varahvet.org/delhi/livestock-feed-supplements%20.php</loc>
+  <loc>https://www.varahvet.org/delhi/livestock-feed-supplements.php</loc>
   <lastmod>2026-04-30T12:35:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
@@ -2158,7 +2153,7 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.varahvet.org/haryana/livestock-feed-supplements%20.php</loc>
+  <loc>https://www.varahvet.org/haryana/livestock-feed-supplements.php</loc>
   <lastmod>2026-04-30T12:35:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
@@ -2213,7 +2208,7 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.varahvet.org/uttar-pradesh/livestock-feed-supplements%20.php</loc>
+  <loc>https://www.varahvet.org/uttar-pradesh/livestock-feed-supplements.php</loc>
   <lastmod>2026-04-30T12:35:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
@@ -2268,7 +2263,7 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.varahvet.org/rajasthan/livestock-feed-supplements%20.php</loc>
+  <loc>https://www.varahvet.org/rajasthan/livestock-feed-supplements.php</loc>
   <lastmod>2026-04-30T12:35:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
@@ -2323,7 +2318,7 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.varahvet.org/madhya-pradesh/livestock-feed-supplements%20.php</loc>
+  <loc>https://www.varahvet.org/madhya-pradesh/livestock-feed-supplements.php</loc>
   <lastmod>2026-04-30T12:35:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
@@ -2378,7 +2373,7 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.varahvet.org/punjab/livestock-feed-supplements%20.php</loc>
+  <loc>https://www.varahvet.org/punjab/livestock-feed-supplements.php</loc>
   <lastmod>2026-04-30T12:35:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
@@ -2433,7 +2428,7 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.varahvet.org/maharashtra/livestock-feed-supplements%20.php</loc>
+  <loc>https://www.varahvet.org/maharashtra/livestock-feed-supplements.php</loc>
   <lastmod>2026-04-30T12:35:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
@@ -2488,7 +2483,7 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.varahvet.org/bihar/livestock-feed-supplements%20.php</loc>
+  <loc>https://www.varahvet.org/bihar/livestock-feed-supplements.php</loc>
   <lastmod>2026-04-30T12:35:02+00:00</lastmod>
   <priority>0.51</priority>
 </url>
